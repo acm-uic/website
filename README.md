@@ -28,3 +28,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Ghost Setup
+
+Make sure you have Docker installed
+
+```bash
+docker run -p 2368:2368 -d --name some-ghost ghost
+```
+
+Navigate to `localhost:2368/ghost' to make a new account and access ghostJS dashboard.
