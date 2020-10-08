@@ -1,0 +1,4 @@
+GET http://localhost:2368/ghost/api/v3/content/posts?key=<insert_content_key_here>
+
+###
+GET http://localhost:2368/ghost/api/v3/content/posts/5f7f8cdbd0014c0001576b44?key=<insert_content_key_here>
